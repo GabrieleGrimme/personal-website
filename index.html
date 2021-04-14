@@ -1,110 +1,99 @@
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal website - Gabriele Grimme</title>
+    <title>Personal Website -- Gabriele Grimme</title>
 </head>
 <body>
+    <!-- header mit Name und navbar -->
+    <header>
+        <h1>Gabriele Grimme</h1>
+            <nav>
+                <a href="#contact">Contact
+                </a> &nbsp;
+                <a href="#biography">Biography
+                </a>
+            </nav>
+    </header>
+    
+    <main>
+    <!-- Foto -->
+    <article>
+        <img src="" alt="Gabriele Grimme">
+    </article>
 
-    <header> 
-        <nav>
-          <ul>
+    <!-- Tags with interests/skills -->
+    <article>
+    <h2>Interest and skills</h2>
+        <ul>
+            <li>Music</li>
+            <li>Larp</li>
+            <li>Yoga</li>
+        </ul>
+    </article>
+
+    <!-- contact information -->
+    <article>
+    <h2>Contact information</h2>
+        <ul>
+            <li>Obertor 16</li>
+            <li>36199 Rotenburg an der Fulda</li>
             <li>
-              <a href="#about-me">about-me</a>
+                <a href="mailto:gabriele-grimme@web.de">
+                Mail an mich
+                </a>
             </li>
-            <li>
-              <a href="#cv">cv</a>
-            </li>
-            <li>
-                <a href="#projects">projects</a>
-              </li> 
-            </ul>
-        </nav>  
-        
-        <h1>
-          My personal website - Gabriele Grimme
-        </h1>
-      </header>
-      <!-- header end -->
+            <li>...</li>
+        </ul>
+    </article>
 
-      <main>
-        <!-- Formular Vor- und Nachname -->
-        <form>
-          <label>First name</label>
-          <div>
-            <input type="text" name="first_name" placeholder="Please enter your first name"
-              />
-          </div>
-  
-          <div>
-            <label>Last name</label>
-              <input type="text" name="last_name" placeholder="Please enter your last name"
-              />
-          </div>
-          <div>     
-              <input id="terms" type="checkbox" name="terms">
-              <span>*</span>
-              <label for="terms">I read the terms and conditions!</label>
-            </div>
-            <div>
-              <label for="favorite_color">Waht is your favorite color?</label>
-              <select id="favorite_color" name="favorite_color">
-                <option value="hotpink">Hotpink</option>
-                <option value="deeppink">Deeppink</option>
-                <option value="lightpink">Lightpink</option>
-              </select>
-            </div>
-            <div>
-              <label for="gender">What is your gender?</label>
-              <input id="gender" type="radio" name="gender" value="f" />Female
-              <input id="gender" type="radio" name="gender" value="m" />Male
-              <input id="gender" type="radio" name="gender" value="d" />Divers
-            </div>
-            <div>
-              <input type="checkbox" name="avocado" value="0" />Avocado
-              <input type="checkbox" name="banana" value="1" />Banana
-              <input type="checkbox" name="cherry" value="2" />Cherry
-            </div>
-            <!-- <div>
-              <textarea >
-            </div> -->
-            <div>
-              <button type="submit">Send your details</button>
-              <button type="reset">Reset your form</button>
-            </div>
-          </form>
-      <!-- Formular Ende -->
+    <!-- Links to Github, Codepen, LinkedIn -->
+    <article>
+        <a href="https://github.com/GabrieleGrimme/GabrieleGrimme">My GitHub</a>
+        <a href="https://codepen.io/gabrielegrimme">Codepen</a>
+        <a href="https://www.linkedin.com/in/gabriele-grimme-bb7184a4/">LinkedIn</a>
+    </article>
 
-  
+    <!-- Text about myself -->
+    <article>
+        <h2 id="biography">About me</h2>
+        This is the text about me, myself and I.
+    </article>
 
-        <section id="about-me">
-          <h2>
-            About me
-          </h2>
-        </section>
-        
-        <section id="cv">
-            <h2>
-              CV
-            </h2>   
-        </section>
+    <!-- CV -->
+    <article>
+        <h2>CV</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                <th>Von-bis</th>
+                <th>Was</th>
+                <th>Wo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>04/21 - 07/21</td>
+                <td>Trainee WebDev</td>
+                <td>neuefische GmbH</td>
+                </tr>
+                <tr>
+                <td>17 - 18</td>
+                <td>Online Marketing Manager</td>
+                <td>Social Media Akademie</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
 
-        <section id="projects">
-          <h2>
-            Projects
-          </h2>
-        </section>
-      </main>     
-      
-      <footer>
-          <ul>
-              <li>Copyright</li>
-              <li>Impressum</li>
-              <li>Contact</li>
-          </ul>
-      </footer>
+    </main>
+ 
+    <!-- Footer --> 
+    <footer>
 
+    </footer>
 </body>
 </html>
+
