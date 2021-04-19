@@ -1,20 +1,89 @@
 * {
-    box-sizing: border-box;
-    font-family: sans-serif, bold;
-  }
-  body {
-	background-color: lightseagreen                                                                                                                                                                                                                                                                                                                                                         ;
+  box-sizing: border-box;
+  font-family: sans-serif, bold;
 }
 
-h1 {
-	color: red;
+body {
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);  
+  margin: 50px;
+}
+
+h1, h2, h3 {
+font-family: fantasy;
 }
 
 a {
   font-size: 1.25rem;
   text-decoration: none;
+  color: slategrey
 }
 
-.nav-item {
-	font-size: 2rem;
+img {
+  margin: 12px;
+  padding: 6px;
+}
+
+.img-foto {
+  width:150px;
+  border-radius: 50px;
+}
+
+.img-icon {
+  width:50px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+/* Navigation */
+nav {
+  font-size: 2rem;
+}
+
+/* Listenstyling */
+.tags {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.tag {
+  font-weight: bold; 
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  xborder: 10px solid hotpink;
+  background-color: ivory; 
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.container-item-skills {
+  border: 1px solid palevioletred;
+  xbackground-color: palegreen;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  width: 260px;
+}
+
+.container-item-bio {
+  border: 1px solid palevioletred;
+  xbackground-color: palegreen;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
 }
